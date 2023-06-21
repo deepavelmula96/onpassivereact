@@ -1,0 +1,8 @@
+
+export const RESET_MOBILE_DATA_REQUEST = 'RESET_MOBILE_DATA_REQUEST';
+
+export const INC_MOBILES = 'INC_MOBILES';
+
+export const DEC_MOBILES = 'DEC_MOBILES';
+
+
