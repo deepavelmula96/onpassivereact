@@ -14,6 +14,7 @@ import DaySeven from './components/Day7/DaySeven';
 import UseMemoUseCallback from './components/Day7/UseMemoUseCallback';
 import UseRef from './components/Day7/UseRef';
 import DayEight from './components/Day8/DayEight';
+import DayNine from './components/Day9/DayNine';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
               <li><Link to="/daysix">Day6</Link></li>
               <li><Link to="/dayseven">Day7</Link></li>
               <li><Link to="/dayeight">Day8</Link></li>
+              <li><Link to="/daynine">Day9</Link></li>
             </ul>
           </nav>
           <Routes>
@@ -46,6 +48,7 @@ const App = () => {
               <Route path='/dayseven/useref' element={<UseRef />} />
             </Route>
             <Route path='/dayeight' element={<DayEight/>}/>
+            <Route path='/daynine' element={<DayNine/>}/>
             <Route path='*' element={<NoPage />} />
           </Routes>
         </BrowserRouter>
