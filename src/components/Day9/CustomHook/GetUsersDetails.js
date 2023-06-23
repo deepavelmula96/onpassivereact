@@ -2,7 +2,7 @@ import React from 'react'
 import useFetchUrl from './useFetchUrl';
 
 const GetUsersDetails = () => {
-    const { loading, data, error } = useFetchUrl("https://jsonplaceholder.typicode.com/posts111/o823948230948239");
+    const { loading, data, error } = useFetchUrl("https://jsonplaceholder.typicode.com/posts");
     console.log("getting_values", { data, error,loading })
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
